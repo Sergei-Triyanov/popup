@@ -541,7 +541,7 @@ body .popup .content .card .text .btn:hover {
             justify-content: center;
   }
   body .popup .content .card .closed {
-    position: !important;
+    position: absolute !important;
     top: 0;
     right: 0;
     z-index: 100000;
