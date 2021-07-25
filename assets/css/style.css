@@ -130,15 +130,19 @@ body .wrapper .menu .container .nav .nav-links li a {
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 20px;
-  -webkit-transition: background .2s linear, color .2s linear;
-  transition: background .2s linear, color .2s linear;
+  -webkit-transition: background .2s linear,
+ color .2s linear;
+  transition: background .2s linear,
+ color .2s linear;
 }
 
 body .wrapper .menu .container .nav .nav-links li a:hover {
   background: #e6989b;
   color: #f1f3be;
-  -webkit-transition: background .2s linear, color .2s linear;
-  transition: background .2s linear, color .2s linear;
+  -webkit-transition: background .2s linear,
+ color .2s linear;
+  transition: background .2s linear,
+ color .2s linear;
 }
 
 body .wrapper .menu .container .nav .nav-links li.active a {
@@ -537,8 +541,10 @@ body .popup .content .card .text .btn:hover {
             justify-content: center;
   }
   body .popup .content .card .closed {
+    position: !important;
     top: 0;
     right: 0;
+    z-index: 100000;
   }
 }
 
