@@ -504,6 +504,7 @@ body .popup .content .card .text .btn:hover {
 
 @media (max-width: 990px) {
   body .popup .content .card {
+    position: relative;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
